@@ -132,6 +132,7 @@ for row in data :
             m.append(-int(i))
         for i in row[106:] :
             f.append(int(i))
+        break # 중복 방지용
 
 import matplotlib.pyplot as plt
 plt.style.use('ggplot')
